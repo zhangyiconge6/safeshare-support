@@ -41,14 +41,14 @@ Confirmed release values:
 
 - [x] Replace both support email placeholders with the confirmed address.
 - [x] Confirm Simplified Chinese and English contact details match.
-- [ ] Confirm effective date remains consistent with the frozen in-app policy.
-- [ ] Confirm no product or privacy facts changed after this source pack was prepared.
-- [ ] Open `privacy.html#zh-Hans` and `privacy.html#english` from the public URL.
-- [ ] Open `support.html#zh-Hans` and `support.html#english` from the public URL.
-- [ ] Check the pages on a narrow phone viewport and a desktop viewport.
-- [ ] Confirm all internal links use the public site and return HTTP 200.
-- [ ] Confirm HTTPS works without login, redirects, consent walls, or region restrictions.
-- [ ] Confirm the public pages contain no analytics, advertising, tracking, or third-party scripts.
+- [x] Confirm effective date remains consistent with the frozen in-app policy.
+- [x] Confirm no product or privacy facts changed after this source pack was prepared.
+- [x] Open `privacy.html#zh-Hans` and `privacy.html#english` from the public URL.
+- [x] Open `support.html#zh-Hans` and `support.html#english` from the public URL.
+- [x] Check the pages on a narrow phone viewport and a desktop viewport.
+- [x] Confirm all internal links use the public site and return HTTP 200.
+- [x] Confirm HTTPS works without login, redirects, consent walls, or region restrictions.
+- [x] Confirm the public pages contain no analytics, advertising, tracking, or third-party scripts.
 - [ ] Paste the final Privacy Policy URL and Support URL into the matching App Store Connect fields.
 
 ## Local preview
