@@ -1,6 +1,6 @@
-# SafeShare V1.0 App Store Web Pack
+# ScrollOne V1.0 App Store Web Pack
 
-This directory is a deployment-ready static source pack for the public SafeShare support and privacy pages.
+This directory is a deployment-ready static source pack for the public ScrollOne / 一点长图 support and privacy pages.
 
 ## Public routes
 
@@ -8,25 +8,27 @@ This directory is a deployment-ready static source pack for the public SafeShare
 - `support.html` — Simplified Chinese and English Support page
 - `index.html` — lightweight landing page linking to both public routes
 
-The two App Store URLs should ultimately resolve to separate, public HTTPS pages without login:
+The App Store URLs should resolve to public HTTPS pages without login:
 
+- Marketing URL: `https://zhangyiconge6.github.io/safeshare-support/`
 - Privacy Policy URL: `https://zhangyiconge6.github.io/safeshare-support/privacy.html`
 - Support URL: `https://zhangyiconge6.github.io/safeshare-support/support.html`
 
 Hosting repository: `zhangyiconge6/safeshare-support`.
+The `safeshare-support` repository name and URL path are retained as historical technical identifiers; the public brand is ScrollOne / 一点长图.
 
 ## Recommended GitHub Pages setup
 
-The existing Spinertia release uses a dedicated GitHub Pages repository with stable `privacy.html` and `support.html` routes. SafeShare can follow the same pattern without sharing Spinertia's repository or URLs:
+The existing Spinertia release uses a dedicated GitHub Pages repository with stable `privacy.html` and `support.html` routes. ScrollOne can follow the same pattern without sharing Spinertia's repository or URLs:
 
-1. Create a dedicated repository for the SafeShare public pages.
+1. Use the dedicated repository for the ScrollOne public pages.
 2. Copy the contents of this directory to the publishing branch root.
 3. Enable GitHub Pages for that branch and root directory.
 4. Confirm that both public URLs use HTTPS and require no login.
 5. Verify `#zh-Hans` and `#english` anchors on both pages.
 6. Add the final URLs to App Store Connect only after the public pages pass the deployment checklist below.
 
-Do not point SafeShare to the Spinertia URLs.
+Do not point ScrollOne to the Spinertia URLs.
 
 ## Required replacements before deployment
 
@@ -34,6 +36,7 @@ Confirmed release values:
 
 - Support email: `gdni_support@163.com`
 - GitHub repository: `zhangyiconge6/safeshare-support`
+- Marketing URL: `https://zhangyiconge6.github.io/safeshare-support/`
 - Privacy Policy URL: `https://zhangyiconge6.github.io/safeshare-support/privacy.html`
 - Support URL: `https://zhangyiconge6.github.io/safeshare-support/support.html`
 
@@ -63,4 +66,4 @@ Then open `http://localhost:8767/`.
 
 ## Source-of-truth boundary
 
-The privacy language is based on the frozen SafeShare V1.0 in-app Privacy Policy and verified release facts. These web files do not change the app, its localization, or its behavior. If SafeShare's data handling changes in a future version, review both languages and the App Store privacy disclosure before publishing an updated policy.
+The privacy language is based on the frozen ScrollOne V1.0 in-app Privacy Policy and verified release facts. These web files do not change the app, its localization, or its behavior. If ScrollOne's data handling changes in a future version, review both languages and the App Store privacy disclosure before publishing an updated policy.
